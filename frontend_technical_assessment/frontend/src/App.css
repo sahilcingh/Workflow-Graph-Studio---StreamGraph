@@ -1,0 +1,94 @@
+.panel {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.panel-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-green { background: #22c55e; }
+.btn-green:hover { background: #16a34a; }
+
+.btn-purple { background: #a855f7; }
+.btn-purple:hover { background: #9333ea; }
+
+.btn-indigo { background: #6366f1; }
+.btn-indigo:hover { background: #4f46e5; }
+
+.btn-yellow { background: #eab308; }
+.btn-yellow:hover { background: #ca8a04; }
+
+.btn-blue { background: #3b82f6; }
+.btn-blue:hover { background: #2563eb; }
+
+.btn-red { background: #ef4444; }
+.btn-red:hover { background: #dc2626; }
+
+.btn-submit {
+  background: linear-gradient(to right, #3b82f6, #a855f7);
+  padding: 12px 24px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(to right, #2563eb, #9333ea);
+}
+
+.stats {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* Node styles */
+.bg-green-50 { background-color: #f0fdf4; }
+.bg-red-50 { background-color: #fef2f2; }
+.bg-purple-50 { background-color: #faf5ff; }
+.bg-yellow-50 { background-color: #fefce8; }
+.bg-blue-50 { background-color: #eff6ff; }
+.bg-indigo-50 { background-color: #eef2ff; }
+.bg-white { background-color: white; }
+.bg-gray-50 { background-color: #f9fafb; }
+
+.border-green-400 { border-color: #4ade80; }
+.border-red-400 { border-color: #f87171; }
+.border-purple-400 { border-color: #c084fc; }
+.border-yellow-400 { border-color: #facc15; }
+.border-blue-400 { border-color: #60a5fa; }
+.border-indigo-400 { border-color: #818cf8; }
+.border-gray-300 { border-color: #d1d5db; }
